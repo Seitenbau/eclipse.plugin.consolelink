@@ -1,7 +1,7 @@
 # Eclipse Console Links
 
 This eclipse plug-in provides support for file system links in the eclipse console.
-A link to a file must start with file:// and the file must reference a file of the current eclipse workspace.
+A link to a file must start with file:// and the file must reference a file in the current eclipse workspace.
 
 Try something like System.out.println("file://C:/workspace/consolelink/pom.xml"); the path in the eclipse console 
 now works as a link to the pom.xml file.  
@@ -9,18 +9,18 @@ now works as a link to the pom.xml file.
 ## Requirements
 
  - Eclipse Indigo 3.7.2
- - Maven 3.0.X for Building
+ - Maven 3.0.x to build the project
 
 ## Installation
 
-The eclipse plug-in could be installed from the following eclipse update site
+The eclipse plug-in could be installed from the following eclipse update site:
 
-  http://seitenbau.github.com/eclipse.plugin.consolelink/
+  		http://seitenbau.github.com/eclipse.plugin.consolelink/
 
 
 ## Build and Installation
 
-- Download Apache Maven Version 3.0.X
+- Download Apache Maven Version 3.0.x
 
 - Run mvn clean package in the root folder of the project
 
