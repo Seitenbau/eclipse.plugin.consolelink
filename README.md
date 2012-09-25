@@ -11,7 +11,7 @@ now works as a link to the pom.xml file.
  - Eclipse Indigo 3.7.2
  - Maven 3.0.X for Building
 
-## Installation
+## Build and Installation
 
 - Download Apache Maven Version 3.0.X
 
