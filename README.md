@@ -11,6 +11,13 @@ now works as a link to the pom.xml file.
  - Eclipse Indigo 3.7.2
  - Maven 3.0.X for Building
 
+## Installation
+
+The eclipse plug-in could be installed from the following eclipse update site
+
+  http://seitenbau.github.com/eclipse.plugin.consolelink/
+
+
 ## Build and Installation
 
 - Download Apache Maven Version 3.0.X
