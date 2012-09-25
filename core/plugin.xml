@@ -6,7 +6,7 @@
       <consolePatternMatchListener
             class="com.seitenbau.eclipse.plugin.consolelink.LinkPatternMatchListenerDelegate"
             id="com.seitenbau.eclipse.plugin.consolelink.consoleFilePatternMatchListener"
-            regex="(\S*\.*)">
+            regex="(file://\S*\.\S*)">
          <enablement></enablement>
       </consolePatternMatchListener>
    </extension>

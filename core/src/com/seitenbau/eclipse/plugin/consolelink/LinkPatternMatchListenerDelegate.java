@@ -55,13 +55,16 @@ public class LinkPatternMatchListenerDelegate implements IPatternMatchListenerDe
 			IFile file = ResourcesPlugin.getWorkspace().getRoot().getFileForLocation(path);
 			if (file != null) 
 			{
-				FileLink fileLink = new FileLink(file, IEditorRegistry.SYSTEM_EXTERNAL_EDITOR_ID, -1, -1, -1);
-				try 
+				if(file.exists())
 				{
-					console.addHyperlink(fileLink, event.getOffset(), event.getLength());
-				} catch (BadLocationException exp) {
-					String msg = String.format("Bad location path %s", pathString);
-					debug(msg , exp);
+					FileLink fileLink = new FileLink(file, IEditorRegistry.SYSTEM_EXTERNAL_EDITOR_ID, -1, -1, -1);
+					try 
+					{
+						console.addHyperlink(fileLink, event.getOffset(), event.getLength());
+					} catch (BadLocationException exp) {
+						String msg = String.format("Bad location path %s", pathString);
+						debug(msg , exp);
+					}
 				}
 			} 
 		}
