@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.seitenbau.eclipse.consolelink.feature"
+      label="Eclipse Console Link Plug-in"
+      version="1.0.0.qualifier">
+
+   <description url="https://github.com/Seitenbau/consolelink">
+      Eclipse Console Links (TODO)
+   </description>
+
+   <copyright url="http://www.seitenbau.com/">
+      SEITENBAU Gmbh
+   </copyright>
+
+   <license url="http://www.apache.org/licenses/LICENSE-2.0">
+   	  SEITENBAU Gmbh 2012
+   	  	
+      Apache License, Version 2.0
+      http://www.apache.org/licenses/LICENSE-2.0
+   </license>
+
+   <plugin
+         id="com.seitenbau.eclipse.consolelink.core"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
