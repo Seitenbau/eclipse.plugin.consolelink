@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
    <description url="https://github.com/Seitenbau/consolelink">
-      Eclipse Console Links
+      Console Links
    </description>
-   <feature url="features/com.seitenbau.eclipse.consolelink.feature_1.0.0.201209251626.jar" id="com.seitenbau.eclipse.consolelink.feature" version="1.0.0.201209251626">
-      <category name="Eclipse Console Links"/>
+   <feature url="features/com.seitenbau.eclipse.consolelink.feature_1.0.0.201209260806.jar" id="com.seitenbau.eclipse.consolelink.feature" version="1.0.0.201209260806">
+      <category name="Console Links"/>
    </feature>
-   <category-def name="Eclipse Console Links" label="Eclipse Console Links">
+   <category-def name="Console Links" label="Console Links">
       <description>
-         Eclipse Console Links (TODO).
+         This eclipse plug-in provides support for file system links in the eclipse console.
+		 A link to a file must start with file:// and the file must reference a file in the current eclipse workspace.
+         Only files without whitespaces are supported by the plugin.
       </description>
    </category-def>
 </site>
