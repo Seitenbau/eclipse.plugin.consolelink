@@ -3,7 +3,7 @@
    <description url="https://github.com/Seitenbau/consolelink">
       Console Links
    </description>
-   <feature url="features/com.seitenbau.eclipse.consolelink.feature_1.0.0.201209260806.jar" id="com.seitenbau.eclipse.consolelink.feature" version="1.0.0.201209260806">
+   <feature url="features/com.seitenbau.eclipse.consolelink.feature_1.0.0.201209260841.jar" id="com.seitenbau.eclipse.consolelink.feature" version="1.0.0.201209260841">
       <category name="Console Links"/>
    </feature>
    <category-def name="Console Links" label="Console Links">
