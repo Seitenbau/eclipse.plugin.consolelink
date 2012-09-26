@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Consolelink
+Bundle-Name: Console Link Eclipse Plug-in
 Bundle-SymbolicName: com.seitenbau.eclipse.consolelink.core;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: com.seitenbau.eclipse.plugin.consolelink.Activator

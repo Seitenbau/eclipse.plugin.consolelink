@@ -5,7 +5,9 @@
       version="1.0.0.qualifier">
 
    <description url="https://github.com/Seitenbau/consolelink">
-      Eclipse Console Links (TODO)
+      This eclipse plug-in provides support for file system links in the eclipse console.
+      A link to a file must start with file:// and the file must reference a file in the current eclipse workspace.
+      Only files without whitespaces are supported by the plugin.
    </description>
 
    <copyright url="http://www.seitenbau.com/">
@@ -14,7 +16,6 @@
 
    <license url="http://www.apache.org/licenses/LICENSE-2.0">
    	  SEITENBAU Gmbh 2012
-   	  	
       Apache License, Version 2.0
       http://www.apache.org/licenses/LICENSE-2.0
    </license>

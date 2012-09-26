@@ -1,7 +1,8 @@
-# Eclipse Console Links
+# Console Links - Eclipse Plug-in
 
 This eclipse plug-in provides support for file system links in the eclipse console.
 A link to a file must start with file:// and the file must reference a file in the current eclipse workspace.
+Only files without whitespaces are supported by the plugin.
 
 Try something like System.out.println("file://C:/workspace/consolelink/pom.xml"); the path in the eclipse console 
 now works as a link to the pom.xml file.  
