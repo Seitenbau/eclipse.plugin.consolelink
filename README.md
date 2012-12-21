@@ -1,5 +1,8 @@
 # Console Links - Eclipse Plug-in
 
+[![Build Status](https://buildhive.cloudbees.com/job/Seitenbau/job/eclipse.plugin.consolelink/badge/icon)](https://buildhive.cloudbees.com/job/Seitenbau/job/eclipse.plugin.consolelink/)
+
+
 This eclipse plug-in provides support for file system links in the eclipse console.
 A link to a file must start with file:// and the file must reference a file in the current eclipse workspace.
 Only files without whitespaces are supported by the plugin.
